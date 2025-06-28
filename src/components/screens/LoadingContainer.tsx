@@ -13,7 +13,7 @@ export function LoadingContainer({ gameState, onSubmit }: LoadingContainerProps)
       <div className="flex justify-center items-start gap-4">
         {/* Main rectangular input box */}
         <div className="w-[60vw] max-w-md h-16 border-2 border-green-400 bg-black flex items-center justify-center text-green-400">
-          "Loading..."
+          Loading...
         </div>
       </div>
     </div>
