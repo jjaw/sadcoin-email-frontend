@@ -32,7 +32,7 @@ export function AgentResponsesScreen({
             </div>
             <div>
               <div className="font-bold text-green-300">1) Officer</div>
-              <div className="text-sm text-green-500">Corporate buzzwords and urgency</div>
+              <div className="text-sm text-green-500">Want you on this. LET'S START WITH THE BASICS</div>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ export function AgentResponsesScreen({
             </div>
             <div>
               <div className="font-bold text-green-300">2) Agent</div>
-              <div className="text-sm text-green-500">Mysterious and secretive</div>
+              <div className="text-sm text-green-500">I took a look at the Key Action Items you should...</div>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ export function AgentResponsesScreen({
             </div>
             <div>
               <div className="font-bold text-green-300">3) Monkey</div>
-              <div className="text-sm text-green-500">Chaotic and fun with emojis</div>
+              <div className="text-sm text-green-500">You shouldn't anyone worry about the small details...</div>
             </div>
           </div>
         </div>
