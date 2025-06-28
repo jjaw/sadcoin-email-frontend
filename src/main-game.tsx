@@ -440,21 +440,21 @@ export default function Component() {
       <CRTContainer>
         <Card className="border-2 border-green-400 bg-black text-green-400 w-full h-full flex flex-col">
           {/* Header */}
-          <div className="border-b-2 border-green-400 p-4 bg-black">
+          <div className="border-b-2 border-green-400 p-2 bg-black">
             <div className="flex justify-between items-center">
-              <h1 className="text-2xl font-bold text-center flex-1">═══ LETSWRITEAN.EMAIL ═══</h1>
+              <h1 className="text-2xl font-bold text-center flex-1">══ SADCOIN ══</h1>
               <div className="flex gap-4 text-sm">
-                <Badge variant="outline" className="border-yellow-400 text-yellow-400">
+                <Badge variant="outline" className="border-yellow-400 text-yellow-400 mr-2">
                   SAD: {sadCoins}
                 </Badge>
-                <Badge variant="outline" className="border-pink-400 text-pink-400">
+                <Badge variant="outline" className="border-pink-400 text-pink-400 mr-2">
                   FEELS: {feels}
                 </Badge>
                 <Button
                   variant="outline"
                   size="sm"
                   onClick={() => setGameState("about")}
-                  className="border-cyan-400 text-cyan-400 hover:bg-cyan-900/20"
+                  className="border-cyan-400 text-cyan-400 hover:bg-cyan-900/20 mr-2"
                 >
                   ABOUT
                 </Button>
