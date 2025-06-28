@@ -95,7 +95,7 @@ Format your response as JSON with "subject" and "body" fields.`
         body: parsed.body
       }
     }
-  } catch (e) {
+  } catch {
     // If JSON parsing fails, try to extract JSON from markdown code blocks
     const jsonMatch = responseText.match(/```json\s*(\{[\s\S]*?\})\s*```/)
     if (jsonMatch) {
@@ -107,7 +107,7 @@ Format your response as JSON with "subject" and "body" fields.`
             body: parsed.body
           }
         }
-      } catch (e2) {
+      } catch {
         // Continue to fallback
       }
     }
