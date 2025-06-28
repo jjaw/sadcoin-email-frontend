@@ -274,7 +274,9 @@ export default function Component() {
     setGameState("mini-game")
   }
 
-  const sendEmail = () => {
+  const sendEmail = (editedEmail: EmailContent) => {
+    // Store the final edited email content
+    setSelectedEmailContent(editedEmail)
     setGameState("sent")
   }
 
@@ -383,6 +385,7 @@ export default function Component() {
         return (
           <SentScreen
             onResetGame={resetGame}
+            sentEmail={selectedEmailContent || undefined}
           />
         )
 

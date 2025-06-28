@@ -48,9 +48,9 @@ createAppKit({
   networks: [mainnet, sepolia],
   metadata,
   features: {
-    email: false,
+    email: true,
     socials: ['google', 'discord', 'github'],
-    emailShowWallets: false
+    emailShowWallets: true
   },
   allWallets: 'HIDE'
 })
